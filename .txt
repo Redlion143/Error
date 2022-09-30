@@ -1,0 +1,15 @@
+Traceback (most recent call last) :
+   File "C: \Users\XXXXXXX\Desktop\Project\Project1\Automation\Test2.py” line 73, in ‹module> 
+     Outlook Automatation(Email Address-“personalemail@gmail.com”, Inbox Folder Name=“Inbox1", Outbox_ Folder Name="Outbox", 
+  Key_words=["A", "B", "C", "D"],Extract=True,Storage=Folder_Name, Rule Name="Inbox")
+   File "C: \Users\XXXXXXX\Desktop\Project\Project1\Automation\Test2.py", line 21, in Outlook Automation
+     Outlook App=win32.gencache.EnsureDispatch("Outlook_Aplication")
+   File "C: \Users\XXXXXXX\AppData\Roaming\Python\Python310\site-packages\win32com\client\gencache.py", line 618, in EnsureDispatch
+     disp= win32com.client.Dispatch(prog_id)
+   File "C: \Users\XXXXXXX\AppData\Roaming\Python\Python310\site-packages\win32com\client\__init__.py", line 117, in Dispatch
+     dispatch, userName = dynamic._GetGoodDispatchAndUserName (dispatch, userName, clsctx)
+   File "C: \Users\XXXXXXX\AppData\Roaming\Python\Python310\site-packages\win32com\client\dynamic.py".line 106, in _GetGoodDispatchAndUserName
+     return (_GetGoodDispatch(IDispatch, clsctx), userName)
+   File "C: \Users\XXXXXX\AppData\Roaming\Python\Python310\site-packages\win32com\client\dynamic.py" line 88, in_GetGoodDispatch
+     IDispatch = pythoncom.CoCreateInstance(
+ pywintypes.com_error: (-2147221005, "Invalid class string", None, None)
